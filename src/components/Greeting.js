@@ -2,16 +2,19 @@ import React, { Component } from 'react'
 
 class Greeting extends Component {
     render() {
+        return(
         function greeting(props) 
         {
             const isLoggedIn = props.isLoggedIn;
-              if (isLoggedIn) {
+              if (isLoggedIn) 
+                    {
                    return <h1>Welcome back</h1>
                     }
         else{
              <h1>Please sign Up</h1>
             }
         }
+        );
         
 }       //<greeting isLoggedIn={false} />
 }

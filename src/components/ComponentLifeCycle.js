@@ -10,6 +10,9 @@ class ComponentLifeCycle extends Component {
                        }
         this.setNewNumber=this.setNewNumber.bind(this);
     };
+    setNewNumber() {
+      this.setState({data: this.state.data + 1})
+   }
 
     render()
     {

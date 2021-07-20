@@ -6,7 +6,7 @@ class Helloworld extends Component {
             <div>
                 <h1>Hello World</h1>
             </div>
-        )
+        );
     }
 }
 
